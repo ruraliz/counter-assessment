@@ -6,7 +6,6 @@ let count= 0
  addition.addEventListener("click", ()=>{
     count += addNumber();
     counter.innerHTML = count;
-    changeColor();
  });
 
  subtraction.addEventListener("click", ()=>{
