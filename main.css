@@ -1,0 +1,42 @@
+section{
+    text-align: center;
+    margin: 30%;
+}
+#counter{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px 0px 40px 0px;
+}
+input{
+    height: 50px;
+    width: 100px;
+    padding: 2%;
+    border-width: 4px;
+    text-align: center;
+    border-radius: 10%;
+    border-color:grey;
+    font-size:40px;
+    border-style: solid;
+}
+#addition{
+    font-size: 40px;
+    width: 80px;
+    color:white;
+    background-color: rgb(179, 179, 179);
+    padding:2%;
+    border-radius: 10%;
+    margin: 0px 8px 0px 0px;
+}
+#subtraction{
+    font-size: 40px;
+    width: 80px;
+    color:white;
+    background-color: rgb(179, 179, 179);
+    padding:2%;
+    border-radius: 10%;
+    margin: 0px 0px 0px 8px;
+}
+#addition:hover{
+    background-color: rgb(245, 245, 245);
+    color:rgb(179, 179, 179);
+}
