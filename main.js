@@ -6,6 +6,7 @@ let count= 0
  addition.addEventListener("click", ()=>{
     count += addNumber();
     counter.innerHTML = count;
+    changeColor();
  });
 
  subtraction.addEventListener("click", ()=>{
@@ -19,8 +20,8 @@ function addNumber(){
 function changeColor(){
 if(count < 0){
     console.log('negative');
-    counter.style.color="red";
+    counter.style.color= "red";
 }else{
-    console.log('no color change');
+    counter.style.color= "black";
 }
 }
